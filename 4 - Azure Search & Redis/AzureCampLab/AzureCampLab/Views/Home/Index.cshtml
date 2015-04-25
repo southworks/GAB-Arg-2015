@@ -1,0 +1,108 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+<div class="container-fluid bg-info">
+    <div class="container">
+        <div class="center-block text-center"><img src="http://argentina.azurebootcamp.net/img/2015-logo-400x270.png"/></div>
+        <div class="center-block text-center">
+            <h1><a href="#" target="_blank">azurecamplab.azurewebsites.net</a></h1></div>
+
+            <div class="clearfix"></div>
+        <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+            <form>
+                <div class="input-group">
+                    <input type="text" id="q" class="form-control" placeholder="Buscar...">
+                    <span class="input-group-btn">
+                        <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                    </span>
+                </div>
+
+
+                <div class="clearfix"></div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Facets</div>
+                    <div class="panel-body">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" class="facet" value="Tags"> Tags
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" class="facet" value="Tipo"> Tipo
+                        </label>
+
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Orden</div>
+                    <div class="panel-body">
+                        <label class="radio-inline">
+                            <input type="radio" name="orderRadio" class="order" value="" checked> Por relevancia de búsqueda
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="orderRadio" class="order" value="Fecha desc"> Por fecha
+                        </label>
+
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Filtros</div>
+                    <div class="panel-body">
+                        <label class="radio-inline">
+                            <input type="radio" name="filterRadio" class="filter" value="" checked> Todos
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="filterRadio" class="filter" value="Video"> Sólo Videos
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="filterRadio" class="filter" value="RSS"> Sólo Publicaciones
+                        </label>
+                    </div>
+                </div>
+                <button class="btn btn-block btn-primary"><span class="glyphicon glyphicon-search"></span> Buscar resultados</button>
+            </form>
+        </div>
+        </div>
+</div>
+<div class="container" id="progress" style="display:none;">
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: 100%"></div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="container" id="info" style="display:none;">
+        <h3>Request</h3>
+        <span></span>
+        <h3>Resultados</h3>
+        <textarea class="form-control" rows="50"></textarea>
+    </div>
+</div>
+@section scripts{
+<script type="text/javascript">
+    $(function () {
+        $('form').on('submit', function (ev) {
+            ev.preventDefault();
+            $('#progress').show();
+            var search = { facets: [], order: '', filter: '', text:$('#q').val() };
+            $('.facet:checked').each(function () {
+                search.facets.push($(this).val());
+            });
+            $('.order:checked').each(function () {
+                search.order = $(this).val();
+            });
+            $('.filter:checked').each(function () {
+                search.filter = $(this).val();
+            });
+            $.post('@Url.Action("Search")', search, function (data) {
+                $('#info textarea').val(data);
+                $.post('@Url.Action("BuildUri")', search, function (data) {
+                    $('#info span').text(data);
+                    $('#info').show();
+                    $('#progress').hide();
+                });
+
+            });
+            
+        });
+    });
+</script>
+    }
+}
