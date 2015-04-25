@@ -1,0 +1,29 @@
+{
+  "changedFilesIos": [
+    "scripts\\app\\controllers\\home.controller.js",
+    "index.html",
+    "scripts\\app\\partials\\home.html",
+    "css\\index.css",
+    "scripts\\app\\services\\mobile.service.js",
+    "css\\home.css",
+    "scripts\\app\\controllers\\details.controller.js",
+    "images\\pub.jpg",
+    "scripts\\app\\partials\\details.html",
+    "css\\details.css",
+    "scripts\\app\\partials\\login.html",
+    "css\\login.css"
+  ],
+  "deletedFilesIos": [],
+  "addedPluginsIos": [],
+  "deletedPluginsIos": [],
+  "changedFiles": [
+    "scripts\\app\\controllers\\details.controller.js",
+    "scripts\\app\\services\\mobile.service.js",
+    "scripts\\app\\partials\\details.html",
+    "scripts\\app\\partials\\login.html",
+    "css\\login.css"
+  ],
+  "deletedFiles": [],
+  "addedPlugins": [],
+  "deletedPlugins": []
+}

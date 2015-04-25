@@ -1,0 +1,55 @@
+﻿<Page
+    x:Class="MeetPub.WP8.DetailsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BarMeetUp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid x:Name="LayoutRoot">
+        <Hub>
+
+            <Hub.Header>
+                <!-- Back button and page title -->
+                <Grid Margin="0,20,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="pageTitle" Text="{Binding Name}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1"  
+                       IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Top"/>
+                </Grid>
+            </Hub.Header>
+            <HubSection Header="Información">
+                <HubSection.Background>
+                    <ImageBrush ImageSource="Assets/pub.jpg" Stretch="UniformToFill" >
+                    </ImageBrush>
+                </HubSection.Background>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Location}" HorizontalAlignment="Left" Margin="10 0" Style="{StaticResource  HeaderTitleText}"  FontSize="25" FontFamily="Segoe UI"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="Assets/rating.png" Width="35"></Image>
+                            <TextBlock Text="Asistentes:" VerticalAlignment="Center" Margin="10 0" Style="{StaticResource TitleText}" Foreground="{StaticResource PrimaryColor}"  FontSize="25" FontFamily="Segoe UI"/>
+                            <TextBlock Text="{Binding Going}" VerticalAlignment="Center" Margin="10 0" Style="{StaticResource TitleText}" Foreground="{StaticResource PrimaryColor}"  FontSize="25" FontFamily="Segoe UI"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </HubSection>
+            <HubSection Header="Mapa">
+                <HubSection.Background>
+                    <ImageBrush ImageSource="Assets/map.png" Stretch="UniformToFill" >
+                    </ImageBrush>
+                </HubSection.Background>
+            </HubSection>
+        </Hub>
+    </Grid>
+
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton Label="Asistir" Icon="Like"  Click="ButtonBase_OnClick"/>
+            <AppBarButton Label="Mapa" Icon="Map"/>
+            <AppBarButton Label="Pin" Icon="Pin"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
