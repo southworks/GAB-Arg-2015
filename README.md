@@ -10,4 +10,4 @@ En este repositorio van a encontrar todo el material presentado durante el [Glob
 3. [Azure para DBA´S SQL Server](https://github.com/southworkscom/GAB-Arg-2015/tree/master/3%20-%20Azure%20DBA%20SQL)
 4. [Performance con Azure Search y Redis](https://github.com/southworkscom/GAB-Arg-2015/tree/master/4%20-%20Azure%20Search%20%26%20Redis)
 5. [Construyendo aplicaciones Media con Microsoft Azure Media Services](https://github.com/southworkscom/GAB-Arg-2015/tree/master/5%20-%20Azure%20Media%20Services)
-6. Introduccion a Visual Studio Online
+6. [Introduccion a Visual Studio Online](https://github.com/southworkscom/GAB-Arg-2015/tree/master/6%20-%20Visual%20Studio%20Online)
