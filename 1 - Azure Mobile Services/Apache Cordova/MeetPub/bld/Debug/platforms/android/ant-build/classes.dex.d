@@ -1,0 +1,24 @@
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes.dex : \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\io\cordova\myappd8f8d626549942d68079a657a329d618\BuildConfig.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\io\cordova\myappd8f8d626549942d68079a657a329d618\CordovaApp.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\io\cordova\myappd8f8d626549942d68079a657a329d618\R$attr.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\io\cordova\myappd8f8d626549942d68079a657a329d618\R$drawable.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\io\cordova\myappd8f8d626549942d68079a657a329d618\R$string.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\io\cordova\myappd8f8d626549942d68079a657a329d618\R$xml.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\io\cordova\myappd8f8d626549942d68079a657a329d618\R.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\org\apache\cordova\device\Device.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$1.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$2.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$3.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$4$1.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$4.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$5$1.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$5$2.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$5$3.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$5$4.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$5.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$InAppBrowserClient.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowserDialog.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppChromeClient.class \
+D:\Repos\meetpub\MeetPub\MeetPub\bld\Debug\platforms\android\ant-build\dexedLibs\classes-69a023311eb09e53488a387606f48579.jar \

@@ -1,0 +1,26 @@
+﻿html {
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1.4em;
+}
+
+body {
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(192, 150, 64);
+}
+
+
+ng-view.container {
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
