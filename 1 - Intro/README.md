@@ -8,4 +8,4 @@ Aparte, hicimos el Science Lab y revisamos el contenido del Racing Lab.
 La deck fue realizada con [reveal.js](http://lab.hakim.se/reveal-js).
 
 ####Presentador
-- [Nicolas Bello Camilletti](https://www.linkedin.com/in/nbellocamilletti), [Southworks SRL](http://southworks.com/)
+- [Nicolas Bello Camilletti](https://www.linkedin.com/in/nbellocamilletti), [Southworks](http://southworks.com/)

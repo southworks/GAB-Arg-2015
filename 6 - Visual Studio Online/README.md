@@ -6,4 +6,4 @@ En esta sesión veremos como el nuevo portal de Windows Azure incluyó mejoras p
 También se verá Application Insights, una solución analítica que recolecta datos de telemetría como por ejemplo: disponibilidad, performance e información de uso para analizar la salud de una aplicación. La Integración con Visual Studio permite a los desarrolladores acceder a estos datos con un simple click.
 
 ####Presentador
-- [Diego Poza](https://ar.linkedin.com/in/diegopoza), [Southworks SRL](http://southworks.com/)
+- [Diego Poza](https://ar.linkedin.com/in/diegopoza), [Southworks](http://southworks.com/)
