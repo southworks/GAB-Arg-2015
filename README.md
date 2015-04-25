@@ -1,7 +1,7 @@
 # Global Azure Bootcamp 2015 - Buenos Aires, Argentina
-http://argentina.azurebootcamp.net
+![](_images/GAB-Arg-2015.PNG)
 
-En este repositorio van a encontrar todo el material presentado durante el Global Azure Azure Bootcamp 2015 en Buenos Aires, Argentina el dia 25 de Abril de 2015.
+En este repositorio van a encontrar todo el material presentado durante el [Global Azure Azure Bootcamp 2015 en Buenos Aires, Argentina](http://argentina.azurebootcamp.net) el dia 25 de Abril de 2015.
 
 ### Charlas
 
