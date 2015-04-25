@@ -1,0 +1,26 @@
+﻿/* Empty. Add your own CSS if you like */
+.login-background {
+    background-image: url('../images/login_background.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+.form {
+    position: absolute;
+    text-align: center;
+    bottom: 28px;
+    left: calc(50% - 150px);
+    width: 300px;
+}
+
+.button {
+    background-color: #5B4A42;
+    color: #FFD768;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+}

@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>MeetPub</title>
+
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <!-- MeetPub references -->
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/leaflet.css" rel="stylesheet" />
+    <link href="css/login.css" rel="stylesheet" />
+    <link href="css/home.css" rel="stylesheet" />
+    <link href="css/details.css" rel="stylesheet" />
+</head>
+<body ng-app="meetpub">
+    <ng-view class="container"></ng-view>
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+    <script src="scripts/index.js"></script>
+
+    <!-- Vendor -->
+    <script src="scripts/vendor/leaflet.js"></script>
+    <script src="scripts/vendor/angular.js"></script>
+    <script src="scripts/vendor/angular-leaflet-directive.js"></script>
+    <script src="scripts/vendor/angular-route.js"></script>
+    <script src="scripts/vendor/MobileServices.Web-1.2.5.min.js"></script>
+    <!-- Initializer -->
+    <script src="scripts/app/app.js"></script>
+    <!-- Classes -->
+    <script src="scripts/app/classes/going.js"></script>
+    <script src="scripts/app/classes/pub.js"></script>
+    <!-- Services -->
+    <script src="scripts/app/services/pubs.services.js"></script>
+    <script src="scripts/app/services/going.service.js"></script>
+    <script src="scripts/app/services/shared.service.js"></script>
+    <script src="scripts/app/services/cordova.service.js"></script>
+    <script src="scripts/app/services/mobile.service.js"></script>
+    <!-- Controllers -->
+    <script src="scripts/app/controllers/home.controller.js"></script>
+    <script src="scripts/app/controllers/details.controller.js"></script>
+    <script src="scripts/app/controllers/loading.controller.js"></script>
+    <script src="scripts/app/controllers/login.controller.js"></script>
+    <script src="scripts/app/controllers/error.controller.js"></script>
+</body>
+</html>

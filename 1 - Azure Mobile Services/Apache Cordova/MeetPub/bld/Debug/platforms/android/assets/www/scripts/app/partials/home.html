@@ -1,0 +1,21 @@
+﻿<header>
+    <div>Meetpub</div>
+</header>
+<div class="date-section">
+   {{home.today}}
+</div>
+<div>
+    <ul class="bar-list">
+        <li ng-repeat="pub in home.pubs">
+            <a ng-click="home.GoTo(pub.Url())">
+                <span class="img-ref">
+                    <div class="img-beer"></div>
+                    <div class="img-count">{{pub.Going}}</div>
+                </span>
+                <span class="name">
+                    {{pub.Name}} {{pub.name}}
+                </span>
+            </a>
+        </li>
+    </ul>
+</div>

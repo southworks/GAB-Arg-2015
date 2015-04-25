@@ -1,0 +1,12 @@
+﻿{
+    "Pubs": [
+        { "Name": "Chabres Bar de Tragos", "Location": "Peru 321", "Going":  6 },
+        { "Name": "The Kilkenny", "Location": "Reconquista 124", "Going":  14  },
+        { "Name": "Gibraltar", "Location": "Piedras 675", "Going":  0  },
+        { "Name": "Ocho7ocho", "Location": "Ocho 1212" , "Going":  0 },
+        { "Name": "Puerta Roja", "Location": "Rojas 353", "Going":  3  },
+        { "Name": "Gran Bar Danzón", "Location": "Calle Falsa 123", "Going":  1  },
+        { "Name": "Doppelganger Bar", "Location": "No recuerdo 701", "Going":  0  }
+    ]
+
+}

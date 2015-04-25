@@ -1,0 +1,109 @@
+﻿ul.tabs {
+    margin: 0;
+    margin-top: -16px;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+    ul.tabs li {
+        float: left;
+        border: 0;
+        width: 25%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        vertical-align: middle;
+        background-color: #5B4A42;
+        border-bottom: 4px solid #5B4A42;
+    }
+
+        ul.tabs li a {
+            color: #ffd768;
+            text-transform: uppercase;
+        }
+
+            ul.tabs li a:after {
+                content: "";
+                float: right;
+                right: 0;
+                border: 1px solid lightgray;
+                height: 30px;
+                margin-top: 10px;
+            }
+
+        ul.tabs li:last-child a:after {
+            border: 0;
+        }
+
+        ul.tabs li.active {
+            border-bottom: 4px solid #FFD768;
+        }
+
+header {
+    width: 100%;
+    font-size: 1.6em;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(255, 215, 104);
+    background-color: rgb(91, 74, 66);
+}
+
+.date-section {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(192, 150, 64);
+}
+
+ul.bar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+    ul.bar-list li {
+        display: block;
+        border: 1px solid rgb(91,74,66);
+        background-color: rgb(255, 215, 104);
+    }
+
+        ul.bar-list li a {
+            text-decoration: none;
+            color: rgb(91,74,66);
+            display: table;
+        }
+
+            ul.bar-list li a span.name {
+                padding-left: 10px;
+                display: table-cell;
+                vertical-align: middle;
+                height: 100%;
+            }
+
+
+            ul.bar-list li a .img-ref {
+                border-right: 1px solid rgb(91,74,66);
+                display: table-cell;
+                padding: 0 10px;
+                background-color: rgb(192, 150, 64);
+            }
+
+                ul.bar-list li a .img-ref .img-beer {
+                    background-image: url(../images/rating.png);
+                    -ms-background-size: 24px;
+                    background-size: 24px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    height: 40px;
+                }
+
+    ul.bar-list .img-ref .img-count {
+        text-align: center;
+    }

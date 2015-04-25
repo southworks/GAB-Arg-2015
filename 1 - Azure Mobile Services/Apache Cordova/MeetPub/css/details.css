@@ -1,0 +1,28 @@
+﻿.pub-details {
+    margin-top: -30px;
+    background-image: url('../images/pub.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.pub-details h1,
+.pub-details h3 {
+    color: white;
+}
+
+.pub-details h4 {
+    font-weight: 900;
+    color:rgb(255, 215, 104);
+}
+
+.pub-details .assistance {
+     display: table;
+     color:rgb(255, 215, 104);
+}
+
+.pub-details .img-beer {
+    width: 20px;
+}
